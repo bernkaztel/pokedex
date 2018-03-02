@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agenda de contactos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arapey:400i|Satisfy" rel="stylesheet">
+</head>
+
+<body>
+  <!--Modal template-->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 id="modaltitle" class="d-block mx-auto">Pokemon Name</h3>
+            </div>
+            <div class="modal-body mx-auto">
+                <img id="imagemodal" src="#" class=" img-responsive d-block mx-auto modal-img" height="100px" width="100px" alt="">
+                <div class="d-block mx-auto">
+                        <span class="font-weight-bold">Tipo de pokemon:</span>
+                        <span id="type" class=" font-italic">Tipo de pokemon</span>
+                    </div>
+                    <div class="d-block mx-auto">
+                        <span class="font-weight-bold">Habitat:</span>
+                        <span id="habitat" class=" font-italic">Habitat</span>
+                    </div>
+                    <div class="d-block mx-auto">
+                        <span class="font-weight-bold">Group:</span>
+                        <span id="group" class=" font-italic">/Group</span>
+                    </div>
+                <div class="d-block mx-auto mt-2">
+                    <p id="description" class="d-block mx-auto littlefont description-modal">Descripción</p>
+                </div>
+                <button type="button" class="btn btn-default d-block mx-auto btn-dark" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+   <h1 class=" text-center m-4">Pokedex</h1>
+   <input type="text" placeholder="Search for any pokemon" width="400px" class=" d-block mx-auto m-1">
+<div class="container-fluid" id="container-pokemon"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+      crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
