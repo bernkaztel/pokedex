@@ -1,4 +1,58 @@
 .pokemon{
     height: 200px;
-    widows: 200px;
+    width: 200px;
 }
+
+.green{
+    border: solid 3px green
+}
+
+
+.red{
+    border: solid 3px rgb(211, 12, 12)
+}
+
+.yellow{
+    border: solid 3px rgb(204, 125, 7)
+}
+
+.blue{
+    border: solid 3px rgb(38, 134, 224)
+}
+
+
+
+
+
+
+.header{
+    font-size: 60px;
+    color: rgb(224, 15, 0);
+}
+
+
+.btn-poke{
+    border-radius: 10px;
+    border-bottom: 4px solid rgb(26, 43, 192);
+    border-right: 4px solid rgb(26, 43, 192);
+    background-color: rgb(238, 238, 238);
+    color: rgb(160, 159, 159);
+}
+
+input[type=text] {
+width: 40%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-style: none;
+    border-radius: 10px;
+    border-bottom: 4px solid rgb(26, 43, 192);
+    border-right: 4px solid rgb(26, 43, 192);
+    background-color: rgb(238, 238, 238);
+}
+
+    
+    .search{
+        background-color: rgba(153, 22, 22, 0.596);
+        
+    }
